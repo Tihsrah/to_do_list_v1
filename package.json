@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "name": "to_do_list_v1",
+  "version": "1.0.0",
+  "description": "Its a to do list web app",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tihsrah/to_do_list_v1.git"
+  },
+  "author": "Tihsrah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tihsrah/to_do_list_v1/issues"
+  },
+  "homepage": "https://github.com/Tihsrah/to_do_list_v1#readme"
+}
