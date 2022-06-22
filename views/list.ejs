@@ -3,8 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>To-Do-List</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Today is <%= today %> </h1>
+    <div class="box" id="heading"> <%= today %> </div>
+
+
+    <div class="box">
+    <!-- <%= test %> -->
+      <% for(var i=0; i<test.length ; i++){ %>
+       <div class="item">
+         <input type="checkbox">
+         <p>  <%=test[i]%> </p>
+       </div>
+      <% } %>
+
+      <form class="item" action="/" method="post">
+        <input type="text" name="input" placeholder="New Item" autocomplete="off">
+        <button type="submit" name="submit">+</button>
+      </form>
+    </div>
+
+
+
+
+
   </body>
 </html>
